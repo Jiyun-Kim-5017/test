@@ -42,6 +42,8 @@ async function handleSubmit(e) {
   const isNumberValid = Number(phonenumber);
   const isdetailAdressValid = detailAdress.length;
 
+  console.log(adress);
+
   if (!isFullNameValid || !isPasswordValid) {
     return alert("이름은 2글자 이상, 비밀번호는 4글자 이상이어야 합니다.");
   }
